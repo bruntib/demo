@@ -6,8 +6,13 @@ void printNumbers()
     std::cout << i << std::endl;
 }
 
-int main()
+void sayHello()
 {
   std::cout << "hello world" << std::endl;
+}
+
+int main()
+{
+  sayHello();
   printNumbers();
 }
